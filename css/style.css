@@ -1,0 +1,29 @@
+ul
+{
+ font-family: san-serif;
+ font-size: 16;
+ color: Red;
+}
+h1
+{
+ font-style: Italic;
+}
+ol
+{
+font-size:14;
+color: Green;
+}
+dl
+{
+  font-size: 18;
+  color: Blue;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div{
+  margin:inherit;
+  width:1000px;
+
+}
