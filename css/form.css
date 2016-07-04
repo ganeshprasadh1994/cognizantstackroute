@@ -1,0 +1,14 @@
+h1{
+  background:url('../images/man.jpg') no-repeat;
+  text-indent:-9999px;
+  width:346px;
+  height:146px;
+}
+form{
+  text-align: center;
+  font-size: 18px;
+  font-family:sans-serif,monospace;
+}
+ul{
+  list-style-type: none;
+}

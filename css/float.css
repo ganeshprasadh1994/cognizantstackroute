@@ -1,0 +1,32 @@
+.wrap{
+  width:80%;
+  min-width: 600px;
+  margin:auto;
+  background: green;
+}
+.leftside{
+  background: yellow;
+  float:left;
+  width:20%;
+}
+.content,aside{
+  height:600px;
+}
+.content{
+  background: red;
+  float:left;
+  width: 60%;
+}
+
+.rightside{
+  background:yellow;
+  float:right;
+  width:20%
+}
+aside ul{
+  list-style: none;
+}
+.clear
+{
+  clear:right;
+}
