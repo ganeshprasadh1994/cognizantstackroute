@@ -1,0 +1,20 @@
+<html>
+<head><title>D3 Example</title>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+  <script>
+  d3.csv("data.csv",type,function(obj){
+    obj.forEach(function(d){
+      console.log(d.Rno +","+d.mark1);
+      console.log(d.Rno+d.mark1);
+    });
+  });
+  function type(d){
+    d.Rno=parseFloat(d.Rno);
+    d.mark1=parseFloat(d.mark1);
+    return d;
+  }
+  </script>
+</body>
+</html>
