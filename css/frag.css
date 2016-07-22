@@ -2,7 +2,7 @@ body{
   width:800px;
   margin:20px auto;
   background-repeat: no-repeat;
-  background-size: stretch;
+  background-size: cover;
 }
 h1{
   font-size: 32px;
@@ -18,10 +18,18 @@ h2{
 }
 img{
   margin:auto;
+  width:30%;
   float:left;
   padding-right: 20px;
 }
 p{
   font-family: 'Abel', sans-serif;
   font-weight: bolder;
+}
+.info
+{
+  width:65%;
+  float:right;
+  padding-right: 20px;
+  text-align: justify;
 }
