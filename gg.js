@@ -1,7 +1,7 @@
 var fs = require('fs');
 var fn=["India2011.csv","IndiaSC2011.csv","IndiaST2011.csv"];
-var obj={};
-var mat=[];
+//var obj={};
+//var mat=[];
 for(var i=0;i<fn.length;i++)
 {
   var f=fs.readFileSync(fn[i],"utf8");
